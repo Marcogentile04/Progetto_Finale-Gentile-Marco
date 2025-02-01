@@ -1,0 +1,22 @@
+.message{
+    height: 450px;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth !important;
+}
+
+.chat_message {
+    padding: 20px;
+    margin: 20px, 0;
+}
+
+.chat_username {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    color: gray;
+    font-style: italic;
+}

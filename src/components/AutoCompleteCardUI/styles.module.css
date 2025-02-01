@@ -1,0 +1,34 @@
+.cardSuggestions {
+    width: 100%;
+    display: flex;
+    padding: 8px 0px;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 12px;
+    margin-top: 10px; 
+}
+
+
+.imgAvatarSuggestions {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+
+.imgAvatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+
+small {
+    margin: 0 10px;
+    padding: 0;
+}
+
+.linkReset {
+    text-decoration: none;
+    color: white;
+  }
