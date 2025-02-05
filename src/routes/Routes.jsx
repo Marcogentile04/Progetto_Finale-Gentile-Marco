@@ -6,7 +6,7 @@ import {
 } from "react-router";
 import AppLayout from "../Layout/AppLayout";
 import AppHome from "../pages/AppHome";
-import { preLoadedFilters } from "../lib/fecth"
+/* import { preLoadedFilters } from "../lib/fecth" */
 import AppGenre from "../pages/AppGenre";
 import AppGame from "../pages/AppGame";
 import AppProfile from "../pages/AppProfile";
@@ -56,7 +56,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/game/:id",
-        element: <AppGame />,
+        element: <AppGame/>
         /* loader: {fetchGames} */
       },
       {

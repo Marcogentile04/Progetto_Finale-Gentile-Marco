@@ -87,6 +87,8 @@ export default function AppGame() {
                 toast.success('Messaggio inviato');
                 inputMessage.reset();
                 console.log(data, 'risposta messaggio');
+                console.log("Valore della variabile:", variabile);
+
 
             }
         }
@@ -101,7 +103,7 @@ export default function AppGame() {
     return (
         <div className="container game_detail_wrapper">
             <div className="game_info">
-                <h1>{game.name}</h1>
+                <h1>{/* {game.name} */}</h1>
                 {session &&
                     (
                         <div>
@@ -114,13 +116,13 @@ export default function AppGame() {
                     )}
 
                 <p>VOTO GLOBALE:</p>
-                <p>{game.rating}</p>
+                <p>{/* {game.rating} */}</p>
                 {session && <button>vai alla review</button>}
                 <h3>About</h3>
-                <small>{game.description_raw}</small>
+                <small>{/* {game.description_raw} */}</small>
             </div>
             <div className="game_media">
-                <GameImage image={game.background_image} />
+                {/* <GameImage image={game.background_image} /> */}
                 {/* <GameImage image={game.background_image_additional} /> */}
                 {session && (
                     <div className="chat_game_container">
